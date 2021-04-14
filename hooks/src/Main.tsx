@@ -8,7 +8,8 @@ function Main({ match, history, location }: Props): JSX.Element {
   console.log(location);
   return (
     <div>
-      <Link to="/useState">useState</Link>
+      <Link to="/useState/counter">useState : Counter</Link>
+      <Link to="/useState/myform">useState : MyForm</Link>
     </div>
   );
 }
