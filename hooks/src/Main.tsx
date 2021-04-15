@@ -13,6 +13,8 @@ function Main({ match, history, location }: Props): JSX.Element {
       <Link to="/useState/myform">useState : MyForm</Link>
       <br />
       <Link to="/useReducer/counter">useReducer : Counter</Link>
+      <br />
+      <Link to="/useReducer/sample">useReducer : Sample</Link>
     </div>
   );
 }

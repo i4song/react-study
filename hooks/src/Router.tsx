@@ -4,6 +4,7 @@ import Main from './Main';
 import Counter from './useState/Counter';
 import MyForm from './useState/MyForm';
 import CounterReducer from './useReducer/Counter';
+import ReducerSample from './useReducer/ReducerSample';
 
 function Router(): JSX.Element {
   return (
@@ -13,6 +14,7 @@ function Router(): JSX.Element {
         <Route path="/useState/counter" component={Counter}></Route>
         <Route path="/useState/myform" component={MyForm}></Route>
         <Route path="/useReducer/counter" component={CounterReducer}></Route>
+        <Route path="/useReducer/sample" component={ReducerSample}></Route>
         {/* Not Found */}
         <Route component={() => <Redirect to="/" />} />
       </Switch>
